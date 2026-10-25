@@ -1,0 +1,2 @@
+sed -i "s/import { Building2, User, Key, Briefcase } from 'lucide-react';/import { Building2, User, Key, Briefcase, Scale, Shield } from 'lucide-react';/g" src/components/WelcomeView.tsx
+sed -i "s/onSelectRole: (role: 'client' | 'demarcheur' | 'proprietaire' | 'agence') => void;/onSelectRole: (role: 'client' | 'demarcheur' | 'proprietaire' | 'agence' | 'juriste' | 'admin') => void;/g" src/components/WelcomeView.tsx

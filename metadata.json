@@ -1,0 +1,6 @@
+{
+  "name": "Travel Booking App",
+  "description": "A modern, premium travel booking application template with mobile-first design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,1 @@
+sed -i "s/<AddPropertyView onClose={() => setShowAddProperty(false)} \/>/<AddPropertyView onClose={() => setShowAddProperty(false)} onAddProperty={(newProp) => setProperties(prev => [newProp, ...prev])} \/>/" src/App.tsx
